@@ -1,0 +1,33 @@
+.nav {
+
+	flex-shrink: 0;
+	position: sticky;
+	bottom: 0;
+	z-index: 9;
+	background-color: var(--bg);
+	border-top: 1px solid rgba(0, 0, 0, 0.06);
+	padding: 30px 50px;
+	border-radius: 10px 10px 0 0;
+
+	ul {
+
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	li {
+
+		display: flex;
+		justify-content: center;
+		color: #D9D9D9;
+
+	}
+
+	a {
+
+		display: block;
+
+	}
+
+}

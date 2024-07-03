@@ -1,0 +1,108 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/montserrat-v26-latin-regular.woff2');
+}
+
+/* montserrat-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/montserrat-v26-latin-500.woff2');
+}
+
+/* montserrat-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/montserrat-v26-latin-600.woff2');
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/montserrat-v26-latin-700.woff2');
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/open-sans-v40-latin-regular.woff2');
+}
+
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/open-sans-v40-latin-500.woff2');
+}
+
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/open-sans-v40-latin-600.woff2');
+}
+
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/roboto-v30-latin-regular.woff2');
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/roboto-v30-latin-500.woff2');
+}
+
+/* hind-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/hind-v16-latin-regular.woff2');
+}
+
+/* hind-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/hind-v16-latin-500.woff2');
+}
+
+/* hind-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/hind-v16-latin-600.woff2');
+}

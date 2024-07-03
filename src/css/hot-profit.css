@@ -1,0 +1,99 @@
+.hot-profit {
+
+	&__title {
+
+		font-family: Montserrat;
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 32px;
+		text-align: center;
+		margin: 15px 0;
+
+		span {
+
+			background: var(--gradient);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+
+		}
+
+	}
+
+	.tabs {
+
+		&__nav {
+
+			margin: 15px 0;
+			display: flex;
+			background-color: rgba(120, 120, 128, 0.12);
+			padding: 2px;
+			border-radius: 9px;
+
+		}
+
+		&__btn {
+
+			width: 50%;
+			padding: 6px 10px;
+			border-radius: 7px;
+			font-family: Montserrat;
+			font-size: 13px;
+			font-weight: 500;
+			line-height: 18px;
+			border: 0.5px solid transparent;
+
+			&.is-active {
+
+				color: #fff;
+				font-weight: 600;
+				background: var(--gradient);
+				border: 0.5px solid rgba(0, 0, 0, 0.04);
+				box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+
+			}
+
+		}
+
+	}
+
+	&__box {
+
+		padding: 16px;
+		border: 1px solid rgba(0, 0, 0, 0.04);
+		box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+		border-radius: 10px;
+		text-align: justify;
+
+		p {
+
+			font-size: 14px;
+			line-height: 20px;
+			color: rgba(0, 0, 0, 0.56);
+
+		}
+
+		h2 {
+
+			margin-bottom: 15px;
+			font-family: 'Montserrat';
+			font-size: 16px;
+
+		}
+
+	}
+
+	&__info {
+
+		margin: 15px 0;
+		padding: 16px;
+		background: #FFF0D9;
+		border: 1px solid #FFDFAF;
+		border-radius: 12px;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: justify;
+		color: #080808;
+
+	}
+
+}

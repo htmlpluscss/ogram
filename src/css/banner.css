@@ -1,0 +1,46 @@
+.banner {
+
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 6px;
+	padding: 14px;
+	min-height: 55px;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26px;
+
+	& + & {
+
+		margin-top: 15px;
+
+	}
+
+	&--big {
+
+		min-height: 109px;
+
+	}
+
+	&--violet {
+
+		background-color: #7247EC;
+
+	}
+
+	&--blue {
+
+		background-color: #007AFF;
+
+	}
+
+	&--red {
+
+		background-color: #EC4747;
+
+	}
+
+}

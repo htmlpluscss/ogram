@@ -1,0 +1,10 @@
+:root {
+
+	--color: #000;
+	--bg: #fff;
+
+	--gradient: linear-gradient(142.47deg, #FB6A39, #DF2A7E);
+
+	--transitionDefault: .3s;
+
+}

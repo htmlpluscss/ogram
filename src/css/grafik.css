@@ -1,0 +1,115 @@
+.grafik {
+
+	&__img {
+
+		margin: -20px -20px 20px;
+		padding: 20px;
+		color: #fff;
+		background-image: var(--gradient);
+
+		&-title {
+
+			font-family: Montserrat;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 29.26px;
+			text-align: left;
+			margin: 40px 0;
+
+		}
+
+		img {
+
+			width: 100%;
+			height: auto;
+
+		}
+
+	}
+
+	&__stat {
+
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px 20px;
+
+		&-item {
+
+			border: 1px solid rgba(0, 0, 0, 0.04);
+			box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.04);
+			border-radius: 6px;
+			padding: 8px 12px;
+			border-radius: 6px;
+			width: calc( 50% - 10px );
+
+			&--full {
+
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				gap: 20px;
+
+				dl {
+
+					width: calc( 50% - 10px );
+
+				}
+
+			}
+
+			dl {
+
+				display: flex;
+				flex-direction: column-reverse;
+
+			}
+
+		}
+
+		&-total {
+
+			font-family: Hind;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 28px;
+			color: rgba(0, 0, 0, 0.7);
+
+		}
+
+		&-data {
+
+			dt {
+
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 20px;
+				color: rgba(0, 0, 0, 0.32);
+
+			}
+
+			dd {
+
+				font-family: Hind;
+				font-size: 22px;
+				font-weight: 600;
+				line-height: 32px;
+
+			}
+
+		}
+
+	}
+
+	&__note {
+
+		font-family: Roboto;
+		font-size: 10px;
+		font-weight: 500;
+		line-height: 16px;
+		text-align: center;
+		margin: 15px 0;
+		color: rgba(0, 0, 0, 0.32);
+
+	}
+
+}
