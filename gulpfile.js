@@ -65,7 +65,7 @@ const html = (files, since = {}) => {
 
 const htmlBuild = () => {
 
-	gulp.src('src/**/index.html')
+	return gulp.src('src/**/index.html')
 		.pipe(nunjucksRender({
 			data: {
 				url: 'https://' + domain,
