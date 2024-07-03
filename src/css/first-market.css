@@ -39,7 +39,7 @@
 		text-align: center;
 		margin: 15px auto;
 		max-width: 380px;
-		font-family: Montserrat;
+		font-family: Montserrat, sans-serif;
 
 		@media (max-width: 390px) {
 

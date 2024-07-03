@@ -2,7 +2,7 @@
 
 	&__title {
 
-		font-family: Montserrat;
+		font-family: Montserrat, sans-serif;
 		font-size: 22px;
 		font-weight: 700;
 		text-align: center;
@@ -41,7 +41,7 @@
 			width: 50%;
 			padding: 6px 10px;
 			border-radius: 7px;
-			font-family: Montserrat;
+			font-family: Montserrat, sans-serif;
 			font-size: 13px;
 			font-weight: 500;
 			line-height: 18px;
@@ -80,7 +80,7 @@
 		h2 {
 
 			margin-bottom: 15px;
-			font-family: 'Montserrat';
+			font-family: 'Montserrat', sans-serif;
 			font-size: 16px;
 
 		}

@@ -45,7 +45,7 @@
 
 	&__title {
 
-		font-family: Montserrat;
+		font-family: Montserrat, sans-serif;
 		font-size: 24px;
 		font-weight: 700;
 		text-align: center;
@@ -113,7 +113,7 @@
 
 		&-total {
 
-			font-family: Hind;
+			font-family: Hind, sans-serif;
 			font-size: 16px;
 			font-weight: 600;
 			line-height: 28px;
@@ -135,7 +135,7 @@
 
 			dd {
 
-				font-family: Hind;
+				font-family: Hind, sans-serif;
 				font-size: 22px;
 				font-weight: 600;
 				line-height: 32px;
@@ -154,7 +154,7 @@
 
 	&__note {
 
-		font-family: Roboto;
+		font-family: Roboto, sans-serif;
 		font-size: 10px;
 		font-weight: 500;
 		line-height: 16px;

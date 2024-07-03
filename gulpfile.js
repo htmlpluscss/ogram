@@ -80,7 +80,7 @@ const htmlBuild = () => {
 		.pipe(replace('<link href="/css/styles.css" rel="preload" as="style">', ''))
 		.pipe(replace('<link href="/js/scripts.js" rel="preload" as="script">', ''))
 		.pipe(replace('<link href="/css/styles.css" rel="stylesheet">', '<style>' + fs.readFileSync('build/css/styles.min.css', 'utf8') + '</style>'))
-//		.pipe(replace('<script defer src="/js/scripts.js"></script>', ''))
+		.pipe(replace('<script defer src="/js/scripts.js"></script>', ''))
 //		.pipe(replace('</body>', '<script>' + fs.readFileSync('build/js/scripts.min.js', 'utf8') + '</script></body>'))
 		.pipe(gulp.dest('build'));
 
