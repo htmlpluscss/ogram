@@ -3,8 +3,20 @@
 	--color: #000;
 	--bg: #fff;
 
+	--indent: 20px;
+
 	--gradient: linear-gradient(142.47deg, #FB6A39, #DF2A7E);
 
 	--transitionDefault: .3s;
+
+}
+
+@media (min-width: 480px) {
+
+	:root {
+
+		--indent: 5vw;
+
+	}
 
 }

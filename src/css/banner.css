@@ -7,18 +7,4 @@
 
 	}
 
-	&--top {
-
-		position: sticky;
-		top: 0;
-
-	}
-
-	&--bottom {
-
-		position: sticky;
-		bottom: 0;
-
-	}
-
 }

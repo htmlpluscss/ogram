@@ -5,9 +5,14 @@
 		font-family: Montserrat;
 		font-size: 22px;
 		font-weight: 700;
-		line-height: 32px;
 		text-align: center;
 		margin: 15px 0;
+
+		@media (max-width: 390px) {
+
+			font-size: 20px;
+
+		}
 
 		span {
 

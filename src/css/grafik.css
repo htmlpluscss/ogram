@@ -1,27 +1,59 @@
 .grafik {
 
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+
+	&__head {
+
+		margin-bottom: var(--indent);
+
+	}
+
+	&__body {
+
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+
+	&__foot {
+
+		margin-top: var(--indent);
+
+	}
+
 	&__img {
 
-		margin: -20px -20px 20px;
-		padding: 20px;
+		margin: calc( var(--indent) * -1 ) calc( var(--indent) * -1 ) 0;
+		padding: var(--indent);
 		color: #fff;
 		background-image: var(--gradient);
-
-		&-title {
-
-			font-family: Montserrat;
-			font-size: 24px;
-			font-weight: 700;
-			line-height: 29.26px;
-			text-align: center;
-			margin-bottom: 20px;
-
-		}
 
 		img {
 
 			width: 100%;
 			height: auto;
+			object-fit: contain;
+			max-height: 30vh;
+
+		}
+
+	}
+
+	&__title {
+
+		font-family: Montserrat;
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: var(--indent);
+
+		@media (max-width: 390px) {
+
+			font-size: 22px;
 
 		}
 
@@ -31,7 +63,14 @@
 
 		display: flex;
 		flex-wrap: wrap;
-		gap: 10px 20px;
+		justify-content: space-between;
+		gap: calc( var(--indent) / 2 ) var(--indent);
+
+		@media (min-width: 480px) {
+
+			gap: calc( var(--indent) / 2 ) calc( var(--indent) - 1px );
+
+		}
 
 		&-item {
 
@@ -40,18 +79,24 @@
 			border-radius: 6px;
 			padding: 8px 12px;
 			border-radius: 6px;
-			width: calc( 50% - 10px );
+			width: calc( 50% - ( var(--indent) / 2 ) );
 
 			&--full {
 
 				width: 100%;
 				display: flex;
 				flex-wrap: wrap;
-				gap: 20px;
+				gap: var(--indent);
+
+				@media (min-width: 480px) {
+
+					gap: calc( var(--indent) - 1px );
+
+				}
 
 				dl {
 
-					width: calc( 50% - 10px );
+					width: calc( 50% - ( var(--indent) / 2 ) );
 
 				}
 
@@ -73,6 +118,7 @@
 			font-weight: 600;
 			line-height: 28px;
 			color: rgba(0, 0, 0, 0.7);
+			padding-left: 12px;
 
 		}
 
@@ -94,6 +140,12 @@
 				font-weight: 600;
 				line-height: 32px;
 
+				@media (max-width: 390px) {
+
+					font-size: 20px;
+
+				}
+
 			}
 
 		}
@@ -107,8 +159,14 @@
 		font-weight: 500;
 		line-height: 16px;
 		text-align: center;
-		margin: 15px 0;
+		margin-top: 15px;
 		color: rgba(0, 0, 0, 0.32);
+
+		@media (max-height: 750px) {
+
+			display: none;
+
+		}
 
 	}
 
